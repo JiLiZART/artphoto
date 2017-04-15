@@ -1,0 +1,48 @@
+{
+  "name": "artphoto",
+  "private": true,
+  "description": "source of artphotoprk.ru build on top of gatsby and react",
+  "version": "1.0.0",
+  "author": "Nikolay Kost <nikolay@artkost.ru>",
+  "dependencies": {
+    "gatsby": "1.0.0-alpha12-alpha.d7d6ef64",
+    "gatsby-link": "1.0.0-alpha12-alpha.d7d6ef64",
+    "gatsby-parser-json": "1.0.0-alpha12-alpha.d7d6ef64",
+    "gatsby-parser-sharp": "1.0.0-alpha12-alpha.d7d6ef64",
+    "gatsby-plugin-glamor": "1.0.0-alpha12-alpha.d7d6ef64",
+    "gatsby-plugin-google-analytics": "^1.0.0-alpha12-alpha.d7d6ef64",
+    "gatsby-plugin-manifest": "1.0.0-alpha12-alpha.d7d6ef64",
+    "gatsby-plugin-offline": "1.0.0-alpha12-alpha.d7d6ef64",
+    "gatsby-plugin-sharp": "1.0.0-alpha12-alpha.d7d6ef64",
+    "gatsby-source-filesystem": "1.0.0-alpha12-alpha.d7d6ef64",
+    "gatsby-typegen-filesystem": "1.0.0-alpha12-alpha.d7d6ef64",
+    "gatsby-typegen-sharp": "1.0.0-alpha12-alpha.d7d6ef64",
+    "instagram-screen-scrape": "^2.0.0",
+    "lodash": "^4.16.4",
+    "mkdirp": "^0.5.1",
+    "mousetrap": "^1.6.0",
+    "progress": "^1.1.8",
+    "react-gravatar": "^2.6.1",
+    "react-icons": "^2.2.3",
+    "react-modal": "^1.6.5",
+    "react-typography": "^0.15.0",
+    "request": "^2.79.0",
+    "slug": "^0.9.1",
+    "typeface-roboto": "^0.0.22",
+    "typeface-space-mono": "^0.0.22",
+    "typography": "^0.15.0"
+  },
+  "main": "n/a",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-links && gh-pages -d public"
+  },
+  "site": {
+    "name": "ArtPhoto — фотостудия",
+    "short_name": "ArtPhoto",
+    "analytics_id": "A"
+  }
+}
